@@ -14,7 +14,7 @@ const links = [
 export default function Navbar() {
   return (
     <header className="sticky top-4 z-50 px-5">
-      <nav className="mx-auto flex max-w-[1400px] items-center justify-between rounded-full border border-[#E7DDD2] bg-white/80 px-5 py-2.5 shadow-lg backdrop-blur-md">
+      <nav className="mx-auto flex max-w-[1400px] items-center justify-between rounded-full border border-[#E9DCC8] bg-white/80 px-5 py-2.5 shadow-lg backdrop-blur-md">
         <a href="#home" className="flex items-center gap-2.5">
           <Image
             src="/images/logo/logo.png"
@@ -25,7 +25,7 @@ export default function Navbar() {
             className="rounded-full"
           />
           <div className="leading-tight">
-            <p className="font-[var(--font-heading)] text-lg text-[#5A2D2F]">
+            <p className="font-[var(--font-heading)] text-lg text-[#5C2E1F]">
               Wool Wali Girl
             </p>
           </div>
@@ -36,7 +36,7 @@ export default function Navbar() {
             <li key={item.label}>
               <a
                 href={item.href}
-                className="text-sm font-medium text-[#5A2D2F]/80 transition duration-300 hover:text-[#C9635A]"
+                className="text-sm font-medium text-[#5C2E1F]/80 transition duration-300 hover:text-[#C96E42]"
               >
                 {item.label}
               </a>
@@ -48,7 +48,7 @@ export default function Navbar() {
           href="https://www.instagram.com/wool_wali_girl/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden shrink-0 items-center gap-2 whitespace-nowrap rounded-full bg-[#3F4630] px-5 py-2.5 text-sm font-medium text-white shadow-md transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#4d5639] lg:flex"
+          className="hidden shrink-0 items-center gap-2 whitespace-nowrap rounded-full bg-[#4E3A24] px-5 py-2.5 text-sm font-medium text-white shadow-md transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#5c452c] lg:flex"
         >
           <CameraIcon className="h-4 w-4 shrink-0" />
           DM on Instagram

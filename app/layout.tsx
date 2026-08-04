@@ -29,7 +29,7 @@ export default function RootLayout({
       lang="en"
       className={`${cormorant.variable} ${manrope.variable}`}
     >
-      <body className="bg-[#F8F3EC] text-[#5A2D2F] font-[var(--font-body)]">
+      <body className="bg-[#FAF0E2] text-[#5C2E1F] font-[var(--font-body)]">
         {children}
       </body>
     </html>

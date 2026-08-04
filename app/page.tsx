@@ -7,6 +7,7 @@ import Offerings from "@/components/home/Offerings";
 import HowToOrder from "@/components/home/HowToOrder";
 import Testimonials from "@/components/home/Testimonials";
 import LatestCreations from "@/components/home/LatestCreations";
+import OurStory from "@/components/home/OurStory";
 import CTABanner from "@/components/home/CTABanner";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <HowToOrder />
       <Testimonials />
       <LatestCreations />
+      <OurStory />
       <CTABanner />
       <Footer />
       <WhatsAppButton />

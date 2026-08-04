@@ -25,10 +25,10 @@ export default function Offerings() {
   return (
     <section id="offerings" className="mx-auto max-w-[1400px] px-6 py-28 lg:px-10">
       <div className="mb-14 text-left">
-        <p className="mb-3 text-sm uppercase tracking-[0.3em] text-[#8B9874]">
+        <p className="mb-3 text-sm uppercase tracking-[0.3em] text-[#B08B4F]">
           What I Offer
         </p>
-        <h2 className="font-[var(--font-heading)] text-4xl text-[#4A2529] md:text-5xl">
+        <h2 className="font-[var(--font-heading)] text-4xl text-[#4E2A1E] md:text-5xl">
           Handmade with love,
           <br />
           crafted to last forever.
@@ -52,11 +52,11 @@ export default function Offerings() {
             </div>
 
             <div className="p-7">
-              <h3 className="mb-2 font-[var(--font-heading)] text-2xl text-[#4A2529]">
+              <h3 className="mb-2 font-[var(--font-heading)] text-2xl text-[#4E2A1E]">
                 {item.title}
               </h3>
-              <p className="text-[#6B5B53]">{item.description}</p>
-              <p className="mt-4 font-[var(--font-heading)] text-xl text-[#C9635A]">
+              <p className="text-[#7A5D4A]">{item.description}</p>
+              <p className="mt-4 font-[var(--font-heading)] text-xl text-[#C96E42]">
                 {item.price}
               </p>
             </div>

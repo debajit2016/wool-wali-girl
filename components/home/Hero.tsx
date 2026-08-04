@@ -16,21 +16,21 @@ export default function Hero() {
     >
       {/* Left Content */}
       <div className="max-w-xl">
-        <p className="mb-4 text-sm uppercase tracking-[0.3em] text-[#8B9874]">
+        <p className="mb-4 text-sm uppercase tracking-[0.3em] text-[#B08B4F]">
           Handmade Crochet, Made to Order
         </p>
 
-        <h1 className="font-[var(--font-heading)] text-5xl leading-[1.1] text-[#4A2529] md:text-6xl">
+        <h1 className="font-[var(--font-heading)] text-5xl leading-[1.1] text-[#4E2A1E] md:text-6xl">
           Bringing blooms
           <br />
-          <span className="text-[#C9635A] italic">to life,</span>
+          <span className="text-[#C96E42] italic">to life,</span>
           <br />
           one stitch
           <br />
           at a time.
         </h1>
 
-        <p className="mt-7 max-w-lg text-lg leading-8 text-[#6B5B53]">
+        <p className="mt-7 max-w-lg text-lg leading-8 text-[#7A5D4A]">
           Handmade crochet flower bouquets, custom pieces, DIY patterns and
           thoughtful gifts — stitched with love.
         </p>
@@ -40,7 +40,7 @@ export default function Hero() {
             href="https://www.instagram.com/wool_wali_girl/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2.5 whitespace-nowrap rounded-full bg-[#C9635A] px-7 py-3.5 font-medium text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-[#b8554c] hover:shadow-xl"
+            className="flex items-center gap-2.5 whitespace-nowrap rounded-full bg-[#C96E42] px-7 py-3.5 font-medium text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-[#b35f38] hover:shadow-xl"
           >
             <CameraIcon className="h-5 w-5 shrink-0" />
             Order on Instagram
@@ -50,7 +50,7 @@ export default function Hero() {
             href="https://wa.me/918876977638?text=Hi!%20I%20would%20like%20to%20order%20a%20crochet%20bouquet."
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2.5 whitespace-nowrap rounded-full border border-[#C9635A] px-7 py-3.5 font-medium text-[#C9635A] transition-all duration-300 hover:-translate-y-1 hover:bg-[#C9635A]/10"
+            className="flex items-center gap-2.5 whitespace-nowrap rounded-full border border-[#C96E42] px-7 py-3.5 font-medium text-[#C96E42] transition-all duration-300 hover:-translate-y-1 hover:bg-[#C96E42]/10"
           >
             <ChatBubbleOvalLeftIcon className="h-5 w-5 shrink-0" />
             Chat on WhatsApp
@@ -60,10 +60,10 @@ export default function Hero() {
         <div className="mt-10 flex flex-wrap gap-x-8 gap-y-4">
           {badges.map((b) => (
             <div key={b.sub} className="flex items-center gap-2.5">
-              <b.icon className="h-5 w-5 shrink-0 text-[#8B9874]" />
-              <p className="whitespace-nowrap text-sm leading-tight text-[#5A2D2F]">
+              <b.icon className="h-5 w-5 shrink-0 text-[#B08B4F]" />
+              <p className="whitespace-nowrap text-sm leading-tight text-[#5C2E1F]">
                 <span className="block font-medium">{b.label}</span>
-                <span className="text-[#6B5B53]">{b.sub}</span>
+                <span className="text-[#7A5D4A]">{b.sub}</span>
               </p>
             </div>
           ))}
@@ -82,11 +82,11 @@ export default function Hero() {
             className="object-cover"
           />
         </div>
-        <div className="absolute -bottom-5 left-6 rotate-[-3deg] rounded-lg bg-[#F8F3EC] px-5 py-3 shadow-xl">
-          <p className="font-[var(--font-heading)] text-lg text-[#5A2D2F]">
+        <div className="absolute -bottom-5 left-6 rotate-[-3deg] rounded-lg bg-[#FAF0E2] px-5 py-3 shadow-xl">
+          <p className="font-[var(--font-heading)] text-lg text-[#5C2E1F]">
             Handmade
           </p>
-          <p className="text-xs text-[#6B5B53]">with love ♥</p>
+          <p className="text-xs text-[#7A5D4A]">with love ♥</p>
         </div>
       </div>
     </section>
