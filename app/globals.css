@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8f3ec;
+  --foreground: #5a2d2f;
+
+  --heading: var(--font-heading);
+  --body: var(--font-body);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-heading: var(--heading);
+  --font-body: var(--body);
+}
+
+/*
+  Custom base styles must live inside @layer base.
+  Tailwind v4 treats unlayered CSS as higher priority than ANY
+  utility class (like px-6 or mx-auto), regardless of specificity.
+  Writing these rules unlayered was silently cancelling out every
+  spacing/margin utility on the site — that was the bug.
+*/
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--body), sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--heading), serif;
+    font-weight: 600;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+}
