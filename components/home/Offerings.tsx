@@ -10,7 +10,7 @@ const offerings = [
   {
     title: "Custom Crochet Flowers",
     description: "Pick your flowers, colours & style.",
-    price: "From ₹699",
+    price: "From ₹599",
     image: "/images/gallery/bouquet2.jpg",
   },
   {
