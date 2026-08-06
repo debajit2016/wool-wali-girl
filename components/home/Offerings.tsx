@@ -4,13 +4,13 @@ const offerings = [
   {
     title: "Flower Bouquets",
     description: "Handmade bouquets for every special occasion.",
-    price: "From ₹699",
+    price: "From ₹999",
     image: "/images/gallery/bouquet1.jpg",
   },
   {
     title: "Custom Crochet Flowers",
     description: "Pick your flowers, colours & style.",
-    price: "From ₹499",
+    price: "From ₹699",
     image: "/images/gallery/bouquet2.jpg",
   },
   {
